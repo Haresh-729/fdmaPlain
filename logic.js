@@ -60,10 +60,13 @@ document.addEventListener('DOMContentLoaded', function () {
         const scrollLeft = slider.scrollLeft;
         currentPage = Math.round(scrollLeft / pageWidth);
         updateDots();
+        renderPaginationDots();
     };
     
     const init = () => {
         addCards();
+        calculateTotalPages();
+        renderPaginationDots();
         const slider = document.getElementById("slider");
         slider.addEventListener('scroll', handleScroll);
         window.addEventListener('resize', () => {
