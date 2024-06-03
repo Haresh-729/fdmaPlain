@@ -76,16 +76,16 @@ document.addEventListener('DOMContentLoaded', function () {
     window.addEventListener("resize", calculateTotalPages);
 
     const data = [
-        { image: "../assets/card_1.png", title: "WEB DEVELOPMENT" },
-        { image: "../assets/card_2.png", title: "HEADING CARD 2" },
-        { image: "../assets/card_1.png", title: "WEB DEVELOPMENT" },
-        { image: "../assets/card_3.png", title: "HEADING CARD 3" },
-        { image: "../assets/card_2.png", title: "HEADING CARD 2" },
-        { image: "../assets/card_3.png", title: "HEADING CARD 3" },
-        { image: "../assets/card_1.png", title: "WEB DEVELOPMENT" },
-        { image: "../assets/card_2.png", title: "HEADING CARD 2" },
-        { image: "../assets/card_3.png", title: "HEADING CARD 3" },
-        { image: "../assets/card_1.png", title: "WEB DEVELOPMENT" }
+        { image: "https://i.ibb.co/jGwG0Nn/card-1.png", title: "WEB DEVELOPMENT" },
+        { image: "https://i.ibb.co/55WWx9H/card-2.png", title: "HEADING CARD 2" },
+        { image: "https://i.ibb.co/yVz46b3/card-3.png", title: "WEB DEVELOPMENT" },
+        { image: "https://i.ibb.co/jGwG0Nn/card-1.png", title: "HEADING CARD 3" },
+        { image: "https://i.ibb.co/55WWx9H/card-2.png", title: "HEADING CARD 2" },
+        { image: "https://i.ibb.co/yVz46b3/card-3.png", title: "HEADING CARD 3" },
+        { image: "https://i.ibb.co/jGwG0Nn/card-1.png", title: "WEB DEVELOPMENT" },
+        { image: "https://i.ibb.co/55WWx9H/card-2.png", title: "HEADING CARD 2" },
+        { image: "https://i.ibb.co/yVz46b3/card-3.png", title: "HEADING CARD 3" },
+        { image: "https://i.ibb.co/jGwG0Nn/card-1.png", title: "WEB DEVELOPMENT" }
     ];
 
     const addCards = () => {
@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', function () {
             cardContent.style.display = 'none';
     
             const iconImg = document.createElement('img');
-            iconImg.src = "../assets/icon.png";
+            iconImg.src = "https://i.ibb.co/cgpkGkj/icon.png";
             iconImg.alt = "icon";
             iconImg.style.width = '3rem';
     
@@ -158,21 +158,21 @@ document.addEventListener('DOMContentLoaded', function () {
 const dataImg = [
     {
         id: 1,
-        image: '../assets/image_OP1.png',
+        image: 'https://i.ibb.co/QvY5ncx/image-OP1.png',
         heading: "Genderless Kei - Japan's Hot",
         desc: "Set to launch on the manufacturer's new A330neo aircraft in 2024. Set to launch on the manufacturer's new A330neo aircraft in 2024",
         animation: "fade-down"
     },
     {
         id: 2,
-        image: '../assets/receipe_1.jpg',
+        image: 'https://i.ibb.co/7XV4dkY/receipe-1.jpg',
         heading: "Better Strategy & Quality",
         desc: "Set to launch on the manufacturer's new A330neo aircraft in 2024. Set to launch on the manufacturer's new A330neo aircraft in 2024",
         animation: "fade-left"
     },
     {
         id: 3,
-        image: '../assets/receipe_3.jpg',
+        image: 'https://i.ibb.co/DWhk7rt/receipe-3.jpg',
         heading: "Genderless Kei - Japan's Hot",
         desc: "Set to launch on the manufacturer's new A330neo aircraft in 2024. Set to launch on the manufacturer's new A330neo aircraft in 2024",
         animation: "slide-up"
