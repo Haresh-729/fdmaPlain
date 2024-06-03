@@ -1,0 +1,157 @@
+body {
+    overflow: auto; /* Hide scrollbar */
+}
+
+/* Hide scrollbar for Firefox */
+body::-webkit-scrollbar {
+    display: none; /* Hide scrollbar */
+}
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide {
+    overflow: auto;
+}
+
+.text-2xl {
+    font-size: 1.5rem;
+}
+
+.text-2rem {
+    font-size: 2rem;
+}
+.pagination-dot {
+    transition: background-color 0.3s;
+}
+.bg-secondary {
+    background-color: #6c757d; /* Bootstrap secondary color */
+}
+.bg-danger {
+    background-color: #dc3545; /* Bootstrap danger color */
+}
+
+.custom-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff3a50; /* Custom danger color */
+    font-size: 2rem; /* h2 size */
+}
+
+.custom-subheading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.5rem; /* Adjust as needed for h1 size */
+}
+
+.custom-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    user-select: none;
+    cursor: default;
+    transition: box-shadow 0.3s ease, border-top 0.3s ease;
+}
+
+.custom-card:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ff3a50; /* Custom color */
+}
+
+.custom-title {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+}
+
+.custom-text {
+    font-size: 1.2rem;
+}
+
+.w-25 {
+    width: 4rem;
+    height: 4rem;
+}
+
+.project-container {
+    padding: 5rem 2rem;
+}
+.project-heading {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ff3a50;
+    font-size: 2rem;
+}
+.project-subheading {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+    color: black;
+}
+.project-card {
+    background-color: #f6f6f6;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.project-card:hover {
+    background-color: #ff3a50;
+    color: white;
+}
+.project-card img {
+    width: 100%;
+    transition: transform 0.3s;
+}
+.main-image {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+    border-radius: 1rem;
+}
+
+.eg_custom-card {
+    display: flex;
+    width: 10rem;
+    height: 100%;
+    flex-direction: column;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    user-select: none;
+    cursor: default;
+    transition: box-shadow 0.3s ease, border-top 0.3s ease;
+}
+
+.eg_custom-card:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+.eg_logo{
+    width: 2rem;
+    height: 2rem;
+}
+
+.modal-opened {
+    filter: blur(4px);
+    pointer-events: none; /* Ensure that the blurred elements do not intercept mouse events */
+  }
+  .modal {
+    width: 100wh;
+    height: 100vh;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    z-index: 1000; /* Ensure that the modal content appears above the blurred background */
+  }
+
+  .cust_txt {
+    font-size: .8rem;
+}
